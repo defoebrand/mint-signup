@@ -7,16 +7,48 @@ body{
   font-family: arial, sans-serif;
   font-color: #4c4c4c;
 }
-
+a{
+    text-decoration: none;
+}
 #sign-in{
   align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+line-height: 5px;
+
+margin-right: 25px;
+}
+#sign-in button{
+  background: #0077c5;
+height: 50px;
+  color: white;
+  margin-left: 10px;
+}
+#lock{
+  background-image: url(images/lock.png);
+  padding-left: 25px;
+  line-height: 50px;
+  margin-bottom: 15px;
 }
 
-#logo{
+.logo{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+#links a{
+  color: gray;
 }
 
 form{
