@@ -4,7 +4,43 @@ body{
   align-items: center;
   justify-content: center;
   background: #eceef1;
+  font-family: arial, sans-serif;
+  font-color: #4c4c4c;
 }
+
 #sign-in{
   align-self: flex-end;
+}
+
+#logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dedfe1;
+  width: 450px;
+  background: white;
+  padding: 15px;
+  margin: 15px;
+}
+form label{
+  align-self: flex-start;
+}
+form input{
+  width: 425px;
+  margin: 10px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
