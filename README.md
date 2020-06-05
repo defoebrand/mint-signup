@@ -14,7 +14,7 @@ This project was the second project compiled by Brandon and Tiago in the Microve
 - VScode and Atom
 - Windows10 and Ubuntu
 - https://validator.w3.org was used to validate the HTML code in this project
-- stickler something or other
+- https://stickler-ci.com/ was used to validate the CSS code in this project
 
 ## Live Demo
 
@@ -49,7 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- 
+-
 
 ## 📝 License
 
