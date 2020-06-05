@@ -43,10 +43,11 @@ a{
   background-size: 75%;
   background-repeat: no-repeat;
   padding-left: 25px;
- font-size: 25px;
+  font-size: 25px;
   margin-bottom: 15px;
   vertical-align: middle;
   margin-right: 5px;
+  border: 1px solid black;
 }
 
 .logo{
@@ -84,16 +85,81 @@ form{
   border: 1px solid #dedfe1;
   width: 450px;
   background: white;
-  padding: 15px;
-  margin: 15px;
+  padding: 35px;
+  margin: auto;
+  height: 750px;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 form label{
-  align-self: flex-start;
+  margin-top: 30px;
 }
 form input{
   width: 425px;
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
+  height: 40px;
 }
+
+form a{
+  text-decoration: none;
+  color: rgb(57, 102, 133);
+}
+
+.label_paragraph {
+  margin-left: 10px;
+}
+
+#submit {
+  color: white;
+  background-color: #0077C5;
+  width: 425px;
+  /* align-self: center; */
+  /* margin: 10px; */
+  border-radius: 10px;
+
+  margin-top: 25px;
+  margin-left: 15px;
+  height: 50px;
+
+}
+#captcha {
+  background-color: #eceef1;;
+  margin-top: 35px;
+  text-align: center;
+  font-size: 13px;
+  /* width: 500px; */
+  margin-right: -27px;
+  margin-left: -28px;
+
+
+
+}
+#captcha p {
+  /* margin: 0;
+  margin-left:0px; */
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#learn {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+#standard {
+  font-size: 12px;
+  margin-left: 10px ;
+  margin-top: -5px;
+  margin-bottom: 40px;
+}
+
+form h1{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 75px;
+}
+
+
 
 footer{
   display: flex;
@@ -113,5 +179,10 @@ footer nav a:hover {
   text-decoration: underline;
 }
 #terms{
-  margin-top: 0px;
+  margin-top: 25px;
+  padding: -10px 0px 15px 0px;
+  text-align: center;
+  width: 100%;
+  line-height: 35px;
+  font-size: 15px;
 }
