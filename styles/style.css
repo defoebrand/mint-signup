@@ -59,6 +59,11 @@ a {
   height: 50px;
 }
 
+form a {
+  text-decoration: none;
+  color: rgb(57, 102, 133);
+}
+
 footer nav a {
   margin: 5px;
   color: #505050;
@@ -66,11 +71,6 @@ footer nav a {
 
 footer nav a:hover {
   text-decoration: underline;
-}
-
-form a {
-  text-decoration: none;
-  color: rgb(57, 102, 133);
 }
 
 #links {
@@ -103,7 +103,6 @@ form {
   background: white;
   padding: 35px;
   margin: auto;
-
   border-radius: 2px;
 }
 
@@ -118,8 +117,6 @@ form input {
   margin: 10px 10px 10px 10px;
   height: 40px;
 }
-
-
 
 form h1 {
   font-size: 30px;
@@ -152,7 +149,7 @@ form h1 {
 
 #submit {
   color: white;
-  background-color: #0077C5;
+  background-color: #0077c5;
   width: 425px;
   border-radius: 10px;
   font-size: 18px;
@@ -185,7 +182,6 @@ form h1 {
   padding: 30px;
 }
 
-
 /* FOOTER SECTION */
 
 footer {
@@ -202,8 +198,6 @@ footer {
 footer nav {
   margin-top: 15px;
 }
-
-
 
 #terms {
   font-size: 12px;
