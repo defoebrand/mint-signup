@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,14 +7,15 @@ body{
   font-family: arial, sans-serif;
   color: #4c4c4c;
 }
-a{
+
+a {
   text-decoration: none;
   color: #0077C5
 }
 
 /* HEADER SECTION */
 
-#sign-in{
+#sign-in {
   align-self: flex-end;
   display: flex;
   flex-direction: row;
@@ -23,7 +24,8 @@ a{
   line-height: 5px;
   margin-right: 25px;
 }
-#sign-in button{
+
+#sign-in button {
   background: #0077c5;
   height: 35px;
   width: 100px;
@@ -33,17 +35,18 @@ a{
   border-radius: 4px;
   border: 1px solid #4c4c4c;
 }
-#forgot-info-link{
+
+#forgot-info-link {
   text-align: right;
   margin-bottom: 5px;
   font-size: 12px;
 }
-.lock{
-  vertical-align: middle;
 
+.lock {
+  vertical-align: middle;
 }
 
-.logo{
+.logo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,29 +54,32 @@ a{
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.logo a img{
+
+.logo a img {
   height: 50px;
 }
 
-#links{
+#links {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: 20px;
 }
-#links a{
+
+#links a {
   color: gray;
   margin-right: 5px;
 }
-#links img{
+
+#links img {
   height: 30px;
   margin: 2px;
 }
 
 /* FORM SECTION */
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,30 +89,33 @@ form{
   background: white;
   padding: 35px;
   margin: auto;
-
   border: 1px solid black;
   border-radius: 2px;
 }
-form label{
+
+form label {
   margin-top: 30px;
   margin-left: 10px;
   align-self: flex-start;
 }
-form input{
+
+form input {
   width: 425px;
   margin: 10px 10px 10px 10px;
   height: 40px;
 }
 
-form a{
+form a {
   text-decoration: none;
   color: rgb(57, 102, 133);
 }
-form h1{
+
+form h1 {
   font-size: 30px;
   font-weight: 400;
   margin-top: 5px;
 }
+
 #learn {
   margin-top: -15px;
   margin-bottom: 15px;
@@ -117,16 +126,16 @@ form h1{
   align-self: flex-start;
   margin-top: -5px;
   margin-left: 10px;
-
 }
 
-#pwd{
+#pwd {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-#pwd-lock{
+
+#pwd-lock {
   margin-left: -60px;
 }
 
@@ -139,9 +148,9 @@ form h1{
   margin-top: 25px;
   margin-left: 15px;
   height: 50px;
-
 }
-#privacy{
+
+#privacy {
   margin-top: 25px;
   padding: -10px 0px 15px 0px;
   text-align: center;
@@ -150,6 +159,7 @@ form h1{
   font-size: 15px;
   color: ##757575;
 }
+
 #captcha {
   background-color: #eceef1;;
   margin-top: 30px;
@@ -157,9 +167,9 @@ form h1{
   font-size: 13px;
   color: #8d9096;
   margin-bottom: -35px;
-
   width: 520px;
 }
+
 #captcha p {
   padding: 30px;
 }
@@ -167,7 +177,7 @@ form h1{
 
 /* FOOTER SECTION */
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,18 +187,21 @@ footer{
   line-height: 7px;
   margin: 10px;
 }
-footer nav{
+
+footer nav {
   margin-top: 15px;
 }
+
 footer nav a {
   margin: 5px;
   color: #505050;
 }
+
 footer nav a:hover {
   text-decoration: underline;
 }
 
-#terms{
+#terms {
   font-size: 12px;
   margin-top: 0px;
 }
