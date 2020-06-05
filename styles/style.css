@@ -10,7 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0077C5
+  color: #0077c5;
 }
 
 /* HEADER SECTION */
@@ -59,6 +59,20 @@ a {
   height: 50px;
 }
 
+footer nav a {
+  margin: 5px;
+  color: #505050;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+form a {
+  text-decoration: none;
+  color: rgb(57, 102, 133);
+}
+
 #links {
   display: flex;
   flex-direction: row;
@@ -84,12 +98,12 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid #dedfe1;
+  border: 1px solid #c7c7c7;
   width: 450px;
   background: white;
   padding: 35px;
   margin: auto;
-  border: 1px solid black;
+
   border-radius: 2px;
 }
 
@@ -105,10 +119,7 @@ form input {
   height: 40px;
 }
 
-form a {
-  text-decoration: none;
-  color: rgb(57, 102, 133);
-}
+
 
 form h1 {
   font-size: 30px;
@@ -144,7 +155,7 @@ form h1 {
   background-color: #0077C5;
   width: 425px;
   border-radius: 10px;
-  font-size:18px;
+  font-size: 18px;
   margin-top: 25px;
   margin-left: 15px;
   height: 50px;
@@ -152,7 +163,7 @@ form h1 {
 
 #privacy {
   margin-top: 25px;
-  padding: -10px 0px 15px 0px;
+  padding: -10px 0 15px 0;
   text-align: center;
   width: 100%;
   line-height: 35px;
@@ -161,7 +172,7 @@ form h1 {
 }
 
 #captcha {
-  background-color: #eceef1;;
+  background-color: #eceef1;
   margin-top: 30px;
   text-align: center;
   font-size: 13px;
@@ -192,16 +203,9 @@ footer nav {
   margin-top: 15px;
 }
 
-footer nav a {
-  margin: 5px;
-  color: #505050;
-}
 
-footer nav a:hover {
-  text-decoration: underline;
-}
 
 #terms {
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: 0;
 }
