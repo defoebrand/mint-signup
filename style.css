@@ -1,4 +1,4 @@
-body{
+/* body{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,10 +37,127 @@ form input{
   width: 425px;
   margin: 10px;
 }
-
-footer{
+*/
+ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 50px;
+} 
+
+/*Test Tiago*/
+body{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  background: #eceef1;
+  font-family: arial, sans-serif;
+  
+  color: #4c4c4c;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dedfe1;
+  width: 450px;
+  background: white;
+  padding: 35px;
+  margin: auto;
+  height: 750px;
+  border: 1px solid black;
+  border-radius: 2px;
+
+}
+#logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form label{
+  margin-top: 30px;
+  
+}
+
+form input{
+  width: 425px;
+  margin: 10px 10px 10px 10px;
+  /* margin-right: 15px; */
+  height: 40px;
+}
+
+form a{
+  text-decoration: none;
+  color: rgb(57, 102, 133);
+}
+
+.label_paragraph {
+  margin-left: 10px;
+}
+
+#submit {
+  color: white;
+  background-color: #0077C5;
+  width: 425px;
+  /* align-self: center; */
+  /* margin: 10px; */
+  border-radius: 10px;
+  
+  margin-top: 25px;
+  margin-left: 15px;
+  height: 50px;
+ 
+}
+#captcha {
+  background-color: #eceef1;;
+  margin-top: 35px;
+  text-align: center;
+  font-size: 13px;
+  /* width: 500px; */
+  margin-right: -27px;
+  margin-left: -28px;
+
+  
+  
+}
+#captcha p {
+  /* margin: 0;
+  margin-left:0px; */
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+#terms {
+  margin-top: 25px;
+  padding: -10px 0px 15px 0px;
+  text-align: center;
+  width: 100%;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+#learn {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+#standard {
+  font-size: 12px;
+  margin-left: 10px ;
+  margin-top: -5px;
+  margin-bottom: 40px;
+}
+
+form h1{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 75px;
 }
