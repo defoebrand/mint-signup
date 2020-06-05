@@ -18,7 +18,7 @@ This project was the second project compiled by Brandon and Tiago in the Microve
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/defoebrand/mint-signup/9fe74cc483537b514944136d7c113e1be6d206dd/index.html)
+[Live Demo Link](https://rawcdn.githack.com/defoebrand/mint-signup/5303d1519e38fc8a90b83aa59caf71ff30e05830/index.html)
 
 
 ## Getting Started
