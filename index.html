@@ -7,14 +7,13 @@
   <link rel="icon" type="image/png" href="images/intuit-icon.png">
   <link rel="apple-touch-icon" type="image/png" href="images/intuit-icon.png"/><!--Apple Compatibility1-->
   <title>Mint Sign Up Clone</title>
-  <!--     <link href="styles/reset.css" rel="stylesheet" type="text/css">   use to erase preset styles as debug tool -->
   <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-  <nav id="sign-in">
-    <div id="forgot-info-link">
+  <nav class="sign-in">
+    <div class="forgot-info-link">
       <p>Already have an Intuit account?</p>
       <a href="">I forgot my User ID or Password</a>
     </div>
@@ -24,7 +23,7 @@
 
   <div class="logo">
     <a href=""><img src="images/logo.png" alt="o"></a>
-    <div id="links">
+    <div class="links">
       <img src="images/mint.png" alt=""><a href="">mint</a>
       <img src="images/quickbooks.png" alt=""><a href="">quickbooks</a>
       <img src="images/turbotax.png" alt=""><a href="">turbotax</a>
@@ -35,23 +34,23 @@
     <form>
       <h1>Create an Intuit account</h1>
       <p>One account for everything Intuit, including Mint.</p>
-      <a id="learn" href="">Learn more</a>
+      <a class="learn" href="">Learn more</a>
 
       <label for="username">Email address</label>
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" class="username">
 
       <label for="phone">Phone (recommended)</label>
-        <input type="tel" name="phone" id="phone">
-        <p id="standard"  >Standard call, messaging or data rates may apply.</p>
+        <input type="tel" name="phone" class="phone">
+        <p class="standard"  >Standard call, messaging or data rates may apply.</p>
 
         <label for="password">Password</label>
-          <div id="pwd">
-            <input type="password" name="password" id="password"><span><img id="pwd-lock" src="images/pwd-lock.png" alt=""></span>
+          <div class="pwd">
+            <input type="password" name="password" class="password"><span><img class="pwd-lock" src="images/pwd-lock.png" alt=""></span>
           </div>
-          <button id="submit" type="submit"><span><img class="lock" src="images/lock.png" alt=""></span>Create Account</button>
-          <p id="privacy"><i> By clicking Create account, you agree to our <a href="">Terms</a>
+          <button class="submit" type="submit"><span><img class="lock" src="images/lock.png" alt=""></span>Create Account</button>
+          <p class="privacy"><i> By clicking Create account, you agree to our <a href="">Terms</a>
             and have read and acknowledged our <a href="">Privacy Statement.</a></i></p>
-            <div id="captcha"><p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>
+            <div class="captcha"><p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>
               and <a href="">Terms of Use.</a></p>
             </div>
           </form>
@@ -62,7 +61,7 @@
 
           <p>&copy; 2020 Intuit, Inc. All rights reserved. Intuit,
             Quickbooks, QB, TurboTax, ProConnect and Mint are registerd trademarks of Intuit, Inc.</p>
-            <p id="terms">Terms and conditions, features, support, pricing, and service options
+            <p class="terms">Terms and conditions, features, support, pricing, and service options
               subject to change without notice.</p>
             </footer>
 
